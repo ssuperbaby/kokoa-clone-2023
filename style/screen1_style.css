@@ -1,0 +1,133 @@
+.headerbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.screen_part1__music_title {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.screen_part1__music_title__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 0.01mm #1d1720;
+}
+.screen_part1__music_title__musician {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.screen_part1__music_title__genres {
+  opacity: 0.4;
+  padding: 10px 0px;
+}
+
+.screen_part1__btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+.screen_part1__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.screen_part1__btn span {
+  opacity: 0.5;
+}
+.btn_black {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.screen_part1__musics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px 25px;
+  padding-top: 0px;
+  gap: 30px;
+  overflow: scroll;
+}
+.screen_part1__musics_item {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen_part1__musics_item_img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.screen_part1__musics_item_menu {
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.screen_part1__musics_item_text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 3px;
+}
+
+.screen_part1__musics_item_text span:first-child {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.screen_part1__musics_item_text span:nth-child(2) {
+  font-weight: 700;
+}
+
+.screen_part1__musics_item_menu :hover {
+  cursor: pointer;
+}
+
+.screen_part1__playing_music {
+  position: absolute;
+  bottom: 20px;
+  width: 95%;
+  height: 65px;
+  background-color: #222222;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.screen_part1__playing_music_text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 3px;
+}
+
+.screen_part1__playing_music_text span:first-child {
+  font-size: 12px;
+  color: rgb(189, 189, 189);
+}
+
+.screen_part1__playing_music_text span:nth-child(2) {
+  font-weight: 700;
+  color: white;
+}
+
+.screen_part1__playing_music .screen_part1__playing_music_btn:nth-child(2) {
+  margin-left: 5px;
+}
