@@ -1,0 +1,102 @@
+.friends_bar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.friends_bar__right {
+  display: flex;
+  gap: 25px;
+}
+
+.my-icon {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+}
+.my-icon__left {
+  display: flex;
+  align-items: center;
+}
+.my-icon__name {
+  padding-left: 15px;
+  padding-right: 5px;
+  font-weight: 600;
+}
+
+.my-icon__btn {
+  border: 1px solid rgb(178, 177, 177);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.my-icon__status-message {
+  transform: scale(0.7);
+  box-sizing: content-box;
+  width: max-content;
+  margin-right: -15px;
+  padding: 3px 10px;
+  border: 1px solid rgb(178, 177, 177);
+  border-radius: 20px;
+}
+
+.best_friend,
+.friends_icons {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+
+.best_friend__text,
+.friends_icons__text {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0px;
+  align-items: center;
+}
+
+.best_friend__title,
+.friends_icons__title {
+  font-size: 13px;
+}
+
+.profile_icon {
+  display: flex;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.profile_icon__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 33%;
+}
+
+.profile_icon__text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.profile_icon__name {
+  font-weight: bolder;
+}
+
+.profile_icon__message {
+  margin-top: -5px;
+  font-size: 15px;
+  color: rgb(134, 134, 134);
+  font-weight: 100;
+}

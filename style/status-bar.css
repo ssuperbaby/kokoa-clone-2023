@@ -1,0 +1,31 @@
+.status_bar {
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.status_bar_mid {
+  font-size: 17px;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-right: 30px;
+}
+#time {
+  margin-top: -5px;
+  font-size: 25px;
+}
+.status_bar_left {
+  font-size: 17px;
+  width: 33%;
+}
+.status_bar_right {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3px;
+  padding-right: 15px;
+}

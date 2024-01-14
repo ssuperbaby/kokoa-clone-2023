@@ -1,0 +1,7 @@
+<div class="profile_icon">
+        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fditto-phinf.pstatic.net%2F20220125_58%2F1643102032025Und0f_JPEG%2F2ed98a416c1c2e74d08ee369d9c8b0d5.jpeg&type=o&size=488x470&ttype=input" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">노마드 코더</div>
+          <div class="profile_icon__message">Booya</div>
+        </div>
+      </div>

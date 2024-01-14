@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kokoa-clone</title>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjFfNzMg%2FMDAxNzAzMDg2OTc0ODQx.05IzwclAcXih6f4q12tvK_hSpkZlTq7EqZU3t7yz1vsg.YBgFxenDfh7V5Mh-RdLq8ZKgjsoEYbbKzM0yuFtxEdUg.JPEG.philarlee%2FSE-ec3b6c97-7490-4725-843b-b4ffa86d0574.jpg&type=a340"
+    />
+    <link rel="stylesheet" href="/style/styles.css" />
+  </head>
+  <body>
+    <!--all html-->
+    <div class="status_bar">
+    <div class="status_bar_left">
+      <div id="totay"></div>
+      
+    </div>
+    
+    <div class="status_bar_mid">
+      <div id="time" class="time"></div>
+    </div>
+
+    <div class="status_bar_right">
+      <div class="wifi"><i class="fa-solid fa-wifi style="color: #1c1e21""></i></div>
+      <div class="signal"><i class="fa-solid fa-signal"></i></div>
+      <div class="battery">
+        <span>100%</span
+        ><i
+          class="fa-solid fa-battery-full fa-rotate-270"
+          
+        ></i>
+      </div>
+    </div>
+  </div>
+  <div class="menus__bottom">
+    <a href="friend.html" class="bottom_menu">
+      <div class="bottom_menu__icon">
+        <i class="fa-solid fa-user fa-xl" style="color: white;"></i>
+      </div>
+      <div class="bottom_menu__name clcked_white">친구</div>
+    </a>
+    <a href="chat.html" class="bottom_menu">
+      <div class="bottom_menu__icon"><i class="fa-solid fa-comment fa-xl" style="color: rgb(92, 91, 91);"></i></div>
+      <div class="bottom_menu__name">채팅</div>
+    </a>
+    <a href="" class="bottom_menu">
+      <div class="bottom_menu__icon">
+        <i class="fa-solid fa-comments fa-flip-horizontal fa-lg" style="color: rgb(92, 91, 91);"></i>
+      </div>
+      <div class="bottom_menu__name">오픈채팅</div>
+    </a>
+    <a href="" class="bottom_menu">
+      <div class="bottom_menu__icon"><i class="fa-solid fa-bag-shopping fa-xl" style="color: rgb(92, 91, 91);"></i></div>
+      <div class="bottom_menu__name">쇼핑</div>
+    </a>
+    <a href="" class="bottom_menu">
+      <div class="bottom_menu__icon"><i class="fa-solid fa-ellipsis fa-xl" style="color: rgb(92, 91, 91);"></i></div>
+      <div class="bottom_menu__name">더보기</div>
+    </a>
+  </div>
+  <div id="display_error">
+    <div class="display_error__text">Plz, reduce the screen.</div>
+  </div>
+  <!---->
+  <div class="friends_bar">
+    <div class="friends_bar__left">친구</div>
+    <div class="friends_bar__right">
+      <div class="friends_bar__right__btn btn"><i class="fa-solid fa-magnifying-glass" ></i></div>
+      <div class="friends_bar__right__btn btn"><i class="fa-solid fa-user-plus"></i></div>
+      <div class="friends_bar__right__btn btn"><i class="fa-solid fa-music"></i></div>
+      <div class="friends_bar__right__btn btn"><i class="fa-solid fa-gear"></i></div>
+    </div>
+  </div>
+    <a class="my-icon" href="#">
+      <div class="my-icon__left">
+        <img class="img my-icon__img"src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA1MDRfMTE3%2FMDAxNTg4NTY2NTgwODQy.Hn9zZaM5E95RKcMjSktV7YPO_B7_zthDMYfcQUJC-5cg.qa1AizmbKLnpccRsbJFM684rLD3r8j4M5UsHxVO7J7sg.JPEG.cvxllllkdry%2Fthe-boss-baby.jpg&type=l340_165" alt="프로필" />
+        <div class="my-icon__name">김영진</div>
+        <div class="my-icon__btn btn"><i class="fa-solid fa-angle-right fa-2xs"></i></div>
+      </div>
+      <div class="my-icon__right">
+        <div class="my-icon__status-message btn">
+          상태메시지 <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </a>
+    <div class="best_friend">
+      <div class="best_friend__text">
+        <div class="best_friend__title">즐겨찾기</div>
+        <div class="best_friend__btn btn">
+          <i class="fa-solid fa-angle-up"></i> 
+        </div>
+      </div>
+      <a class="profile_icon" href="#">
+        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fditto-phinf.pstatic.net%2F20220125_58%2F1643102032025Und0f_JPEG%2F2ed98a416c1c2e74d08ee369d9c8b0d5.jpeg&type=o&size=488x470&ttype=input" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">노마드 코더</div>
+          <div class="profile_icon__message">Booya</div>
+        </div>
+      </a>
+      <a class="profile_icon" href="#" >
+        <img src="https://search.pstatic.net/common?type=f&size=152x152&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F007%2F551%2F7551633.jpg%3Ftype%3Dr204Fll%26v%3D20220526104157" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">장범준</div>
+          <div class="profile_icon__message">배드민턴 칠래요?</div>
+        </div>
+      </a>
+    </div>
+    <div class="friends_icons">
+      <div class="friends_icons__text">
+        <div class="friends_icons__title">친구</div>
+        <div class="friends_icons__btn btn">
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+      </div>
+      
+      <a class="profile_icon" href="#">
+        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fditto-phinf.pstatic.net%2F20220125_58%2F1643102032025Und0f_JPEG%2F2ed98a416c1c2e74d08ee369d9c8b0d5.jpeg&type=o&size=488x470&ttype=input" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">노마드 코더</div>
+          <div class="profile_icon__message">Booya</div>
+        </div>
+      </a>
+      <a class="profile_icon" href="#">
+        <img src="https://search.pstatic.net/common?type=f&size=152x152&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F007%2F551%2F7551633.jpg%3Ftype%3Dr204Fll%26v%3D20220526104157" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">장범준</div>
+          <div class="profile_icon__message">배드민턴 칠래요?</div>
+        </div>
+      </a>
+      <a class="profile_icon" href="#" >
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA4MDZfMTE5%2FMDAxNTMzNTMwOTExNzY4.Vu6x_AgctfBbinVKMjDLyDPtxEH2iNei3pmk9nKWtU0g.8NzM5So2Up3AmUFakIu7Fqv1vqkGhe5wfVGEhwG8J-Qg.JPEG.dkgus1677%2F%25B9%25CC%25B4%25CF%25BE%25F0%25C1%25EE%25B8%25B8%25B5%25E9%25B1%25E2.jpg&type=ff332_332" alt="프로필 사진" class="profile_icon__img"/>
+        <div class="profile_icon__text">  
+          <div class="profile_icon__name">미니언즈</div>
+          <div class="profile_icon__message">바나나</div>
+        </div>
+      </a>
+    </div>
+    
+    <script
+      src="https://kit.fontawesome.com/15da6d0f34.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

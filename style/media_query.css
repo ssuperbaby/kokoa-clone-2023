@@ -1,0 +1,21 @@
+#display_error {
+  display: none;
+}
+
+@media screen and (min-width: 514px) {
+  .status_bar {
+    display: none;
+  }
+  #display_error {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: black;
+    z-index: 99;
+    font-size: 50px;
+  }
+}
