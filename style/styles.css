@@ -1,8 +1,8 @@
-@import "/style/basic.css";
-@import "/style/menus__bottom.css";
+@import "basic.css";
+@import "menus__bottom.css";
 /*--font--*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
-@import "/style/status-bar.css";
-@import "/style/friend.css";
-@import "/style/media_query.css";
+@import "status-bar.css";
+@import "friend.css";
+@import "media_query.css";
